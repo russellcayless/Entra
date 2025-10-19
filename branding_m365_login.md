@@ -11,7 +11,7 @@ An accountancy firm has experienced incidents where users entered their Microsof
 By branding your organization’s Microsoft 365 sign-in experience, users can visually confirm they are on the real company login portal:
 
 - Custom background image (e.g., company logo or office skyline)
-- Banner or footer text (e.g., “Welcome to Carter Accountants Secure Login”)
+- Sign-in page text (e.g., “Welcome to Carter Accountants Secure Login”)
 - Organization logo in the sign-in box
 
 ---
