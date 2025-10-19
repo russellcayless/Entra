@@ -31,15 +31,15 @@ Go to the Entra portal and select **Entra ID > Custom Branding > Default sign-in
 
 ### Step 2: Visual Templates
 
-Select prefered menu behaviour **Template / Header / Footer**. In this example **Partial-screen background** has been selected instead of traditional full screen. 
+Select **Layout** prefered menu behaviour **Template / Header / Footer**. In this example **Partial-screen background** has been selected instead of traditional full screen. 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/layout.png" />
 
 ---
 
-### Step 3: Navigate to Microsoft Purview DLP
+### Step 3: Configure logos on sign-in form
 
-Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+Select **Sign0in form** then upload logos **Banner / Square (light + dark)** 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/banner.png" />
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/squarelogo.png" />
