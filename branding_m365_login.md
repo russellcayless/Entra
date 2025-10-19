@@ -1,18 +1,18 @@
-# 🛡️ Microsoft Purview Endpoint DLP Lab  
-## 🎯 Scenario: Insider Risk - Employee Attempts to Exfiltrate Sensitive Data in ZIP File
+# 🛡️ Microsoft Entra
+## 🎯 Scenario: Branding Microsoft 365 login page to enhance security
 
 **Background:**  
-A contractor working remotely downloads sensitive customer financial data to their local machine and archives it in a ZIP file for "backup." They then attempt to upload the ZIP file to a personal cloud service (e.g., Dropbox or Google Drive) from a corporate-issued device. The organization must detect and prevent this potential data exfiltration.
+
+An accountancy firm has experienced incidents where users entered their Microsoft 365 credentials into phishing websites. Implementing custom branding on the official Microsoft 365 login page helps users recognize the legitimate portal and reduces the risk of entering credentials into a fraudulent tenant.
 
 ---
 
 ## ✅ Lab Objective  
-Simulate the detection and prevention of sensitive data (e.g., SSNs, financial records) stored in archive files on an Entra-joined Windows 10/11 VM.  
-Create a custom Microsoft Purview Endpoint DLP policy to block actions such as:
+By branding your organization’s Microsoft 365 sign-in experience, users can visually confirm they are on the real company login portal:
 
-- Uploading sensitive files to cloud services
-- Copying to clipboard
-- Attempting unauthorized transfers
+- Custom background image (e.g., company logo or office skyline)
+- Banner or footer text (e.g., “Welcome to Carter Accountants Secure Login”)
+- Organization logo in the sign-in box
 
 ---
 
