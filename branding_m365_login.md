@@ -26,3 +26,45 @@ Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies*
 
 ---
 
+### Step 2: 
+
+Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/backgroundimage.png" />
+
+---
+
+### Step 3: 
+
+Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/layout.png" />
+
+---
+
+### Step 1: Navigate to Microsoft Purview DLP
+
+Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/banner.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/squarelogo.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/squarelogodark.png" />
+
+
+---
+
+### Step 1: Navigate to Microsoft Purview DLP
+
+Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/signintext.png" />
+
+---
+
+### Step 1: Navigate to Microsoft Purview DLP
+
+Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+
+---
