@@ -25,3 +25,4 @@ Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies*
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/user-attachments/assets/da69c38e-97b3-4f7b-9b8b-e6cab79fdd33" />
 
 ---
+
