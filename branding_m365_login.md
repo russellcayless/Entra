@@ -37,14 +37,7 @@ Select prefered menu behaviour **Template / Header / Footer**. In this example *
 
 ---
 
-### Step 3: 
-
-Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
-
-
----
-
-### Step 1: Navigate to Microsoft Purview DLP
+### Step 3: Navigate to Microsoft Purview DLP
 
 Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
 
@@ -55,17 +48,17 @@ Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies*
 
 ---
 
-### Step 1: Navigate to Microsoft Purview DLP
+### Step 4: Add Sign-in page text
 
-Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+Enter sign-in page text that you wish to display when users login.
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/signintext.png" />
 
 ---
 
-### Step 1: Navigate to Microsoft Purview DLP
+### Step 5: Confirm login page is branded 
 
-Go to the Microsoft Purview portal and select **Data Loss Prevention > Policies**. This is where all existing and new policies can be managed.
+Login as user to confirm that changes have now been implemented.
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
 
