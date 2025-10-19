@@ -40,7 +40,7 @@ Select **Layout** prefered menu behaviour **Template / Header / Footer**. In thi
 
 ### Step 3: Configure logos on sign-in form
 
-Select **Sign0in form** then upload logos **Banner / Square (light + dark)** 
+Select **Sign-in form** then upload logos **Banner / Square (light + dark)** 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/banner.png" />
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/squarelogo.png" />
