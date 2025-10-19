@@ -24,7 +24,7 @@ By branding your organization’s Microsoft 365 sign-in experience, users can vi
 
 ### Step 1: Navigate to Microsoft Entra
 
-Go to the Entra portal and select **Entra ID > Custom Branding > Default sign-in > Edit **. This is where you can upload a company background image.
+Go to the Entra portal and select **Entra ID > Custom Branding > Default sign-in > Edit**. This is where you can upload a company background image.
 
 
 ---
