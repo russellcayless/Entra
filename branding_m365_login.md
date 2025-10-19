@@ -51,7 +51,7 @@ Select **Sign-in form** then upload logos **Banner / Square (light + dark)**
 
 ### Step 4: Add Sign-in page text
 
-Enter sign-in page text that you wish to display when users login.
+Enter sign-in page text that you wish to display when users login. Then **Review + save**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/signintext.png" />
 
