@@ -14,10 +14,6 @@ By branding your organization’s Microsoft 365 sign-in experience, users can vi
 - Sign-in page text (e.g., “Welcome to Carter Accountants Secure Login”)
 - Organization logo in the sign-in box
 
-## Default login screen
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cd5c32551922714de262c72fbfa6ef7e6cd16ef3/defaultloginscreen.png" />
-
 ---
 
 ## 🧩 Step-by-Step Instructions
