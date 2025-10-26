@@ -1,9 +1,9 @@
 # 🛡️ Microsoft Entra
-## 🎯 Scenario: Branding Microsoft 365 login page to enhance security
+## 🎯 Scenario: Block all countries except UK
 
 **Background:**  
 
-An accountancy firm has experienced incidents where users entered their Microsoft 365 credentials into phishing websites. Implementing custom branding on the official Microsoft 365 login page helps users recognize the legitimate portal and reduces the risk of entering credentials into a fraudulent tenant.
+An accountancy firm identified multiple unauthorized sign-in attempts originating from foreign IP addresses. To reduce the risk of account compromise, a geolocation-based access control policy was required.
 
 ---
 
