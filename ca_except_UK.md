@@ -10,9 +10,11 @@ An accountancy firm identified multiple unauthorized sign-in attempts originatin
 ## ✅ Lab Objective  
 By branding your organization’s Microsoft 365 sign-in experience, users can visually confirm they are on the real company login portal:
 
-- Custom background image (e.g., company logo or office skyline)
-- Sign-in page text (e.g., “Welcome to Carter Accountants Secure Login”)
-- Organization logo in the sign-in box
+- Add countries locations to include UK as trusted site
+- Setup conditional access policy to block all countries except UK
+- Use a VPN connection to simulate a sign-in from a non-UK location.
+- Create a security group in Entra ID for approved exception users.
+- Test exception, reattempt the sign-in from a non-UK VPN location and confirm the user is allowed access as expected.
 
 ---
 
