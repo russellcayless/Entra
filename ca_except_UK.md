@@ -32,7 +32,7 @@ Go to the Entra portal and select **Entra ID > Custom Branding > Default sign-in
 
 Select **Layout** prefered menu behaviour **Template / Header / Footer**. In this example **Partial-screen background** has been selected instead of traditional full screen. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/layout.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_users.png" />
 
 ---
 
@@ -40,10 +40,7 @@ Select **Layout** prefered menu behaviour **Template / Header / Footer**. In thi
 
 Select **Sign-in form** then upload logos **Banner / Square (light + dark)** 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/banner.png" />
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/squarelogo.png" />
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/squarelogodark.png" />
-
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_resources.png" />
 
 ---
 
@@ -51,7 +48,7 @@ Select **Sign-in form** then upload logos **Banner / Square (light + dark)**
 
 Enter sign-in page text that you wish to display when users login. Then **Review + save**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/signintext.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_network.png" />
 
 ---
 
@@ -59,7 +56,7 @@ Enter sign-in page text that you wish to display when users login. Then **Review
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_grant.png" />
 
 ---
 
@@ -67,7 +64,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_enable.png" />
 
 ---
 
@@ -75,7 +72,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/con_vpni.png" />
 
 ---
 
@@ -83,7 +80,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_blocked.png" />
 
 ---
 
@@ -91,7 +88,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_group.png" />
 
 ---
 
@@ -99,7 +96,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_add_member.png" />
 
 ---
 
@@ -107,7 +104,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_add_group.png" />
 
 ---
 
@@ -115,6 +112,6 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5182cf817bead3c64688aef5d6381b59829bf5c9/brandedloginscreen.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_allowed.png" />
 
 ---
