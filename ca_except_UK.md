@@ -22,7 +22,7 @@ By branding your organization’s Microsoft 365 sign-in experience, users can vi
 
 ### Step 1: Add countries locations
 
-Go to the Entra portal and select **Entra ID > Custom Branding > Default sign-in > Edit**. This is where you can upload a company background image.
+Go to the Entra portal and select **Entra ID > Conditional Access > Named Locations > Countries Location**. Enter name of location. Select **Include unknown countries/regions** and all countries. Search for Unitied Kingdom and de-select country. Finally **Create** location. 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/3e39090f4c9e6383cf55ffce43096ababdb18183/named_location.png" />
 
@@ -102,7 +102,6 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 11: Add group to policy
 
-Login as user to confirm that changes have now been implemented.
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_add_group.png" />
 
@@ -110,7 +109,7 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 12: Test sign-in is successful
 
-Login as user to confirm that changes have now been implemented.
+Login as user with VPN still enabled to confirm that exception group has worked. 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_allowed.png" />
 
