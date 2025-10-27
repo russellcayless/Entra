@@ -72,7 +72,7 @@ Login as user to confirm that changes have now been implemented.
 
 Login as user to confirm that changes have now been implemented.
 
-<img width="1500" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/con_vpni.png" />
+<img width="1000" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/con_vpni.png" />
 
 ---
 
