@@ -30,7 +30,7 @@ Go to the Entra portal and select **Entra ID > Conditional Access > Named Locati
 
 ### Step 2: Setup conditional access policy 
 
-Select **Layout** prefered menu behaviour **Template / Header / Footer**. In this example **Partial-screen background** has been selected instead of traditional full screen. 
+Select **Entra ID > Conditional Access > Policies > New Policy**. Name the policy and select **All users**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_users.png" />
 
@@ -38,7 +38,7 @@ Select **Layout** prefered menu behaviour **Template / Header / Footer**. In thi
 
 ### Step 3: Add resources to policy
 
-Select **Sign-in form** then upload logos **Banner / Square (light + dark)** 
+Select policy to include **All resources**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_resources.png" />
 
@@ -46,15 +46,15 @@ Select **Sign-in form** then upload logos **Banner / Square (light + dark)**
 
 ### Step 4: Add network location to policy
 
-Enter sign-in page text that you wish to display when users login. Then **Review + save**
+Configure policy to include **Select networks and locations** and select **All countries except UK**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_network.png" />
 
 ---
 
-### Step 5: Add condition to policy 
+### Step 5: Add acceess controls
 
-Login as user to confirm that changes have now been implemented.
+Select **Grant** control access and set to **Block access**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_grant.png" />
 
@@ -62,7 +62,7 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 6: Enable policy 
 
-Login as user to confirm that changes have now been implemented.
+Turn on policy and **Create**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_enable.png" />
 
@@ -70,7 +70,7 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 7: Enable VPN
 
-Login as user to confirm that changes have now been implemented.
+Enable a VPN from non UK country to test policy is working 
 
 <img width="500" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/con_vpni.png" />
 
@@ -86,7 +86,7 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 9: Create exception group 
 
-Login as user to confirm that changes have now been implemented.
+Select **Entra ID > Groups > New group**. Enter **Group name** and **Group desciption**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_group.png" />
 
@@ -94,7 +94,7 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 10: Add member
 
-Login as user to confirm that changes have now been implemented.
+Select user to add to group in order to test execption works. 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_add_member.png" />
 
@@ -102,15 +102,18 @@ Login as user to confirm that changes have now been implemented.
 
 ### Step 11: Add group to policy
 
+Select **Entra ID > Conditional Access > Policies > Block all countries except UK**. Select **Users > Exclude > Users and groups** and select group **International Access Exceptions**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_add_group.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/53771291a9d14b73d9c05d44eda43a6702b6a869/ca_add_group.png" />
 
 ---
 
-### Step 12: Test sign-in is successful
+### Step 12: Test exception group 
 
-Login as user with VPN still enabled to confirm that exception group has worked. 
+Login again to VPN enabled browswer to confirm exception group works. 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_allowed.png" />
 
 ---
+
+
