@@ -1,20 +1,15 @@
 # 🛡️ Microsoft Entra
-## 🎯 Scenario: Block all countries except UK
+## 🎯 Scenario: MFA all users
 
 **Background:**  
 
-An accountancy firm identified multiple unauthorized sign-in attempts originating from foreign IP addresses. To reduce the risk of account compromise, a geolocation-based access control policy was required.
+An accountancy firm identified that several user accounts lacked multi-factor authentication (MFA), leaving them vulnerable to credential theft and unauthorized access attempts.
 
 ---
 
 ## ✅ Lab Objective  
-By branding your organization’s Microsoft 365 sign-in experience, users can visually confirm they are on the real company login portal:
 
-- Add countries locations to include UK as trusted site
-- Setup conditional access policy to block all countries except UK
-- Use a VPN connection to simulate a sign-in from a non-UK location.
-- Create a security group in Entra ID for approved exception users.
-- Test exception, reattempt the sign-in from a non-UK VPN location and confirm the user is allowed access as expected.
+To strengthen account security by enforcing multi-factor authentication for all users across the Microsoft 365 environment.
 
 ---
 
@@ -68,52 +63,6 @@ Turn on policy and **Create**
 
 ---
 
-### Step 7: Enable VPN
 
-Enable a VPN from non UK country to test policy is working 
-
-<img width="500" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/con_vpni.png" />
-
----
-
-### Step 8: Test sign-in is blocked
-
-Login as user to confirm that changes have now been implemented.
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_blocked.png" />
-
----
-
-### Step 9: Create exception group 
-
-Select **Entra ID > Groups > New group**. Enter **Group name** and **Group desciption**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_group.png" />
-
----
-
-### Step 10: Add member
-
-Select user to add to group in order to test execption works. 
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_add_member.png" />
-
----
-
-### Step 11: Add group to policy
-
-Select **Entra ID > Conditional Access > Policies > Block all countries except UK**. Select **Users > Exclude > Users and groups** and select group **International Access Exceptions**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/53771291a9d14b73d9c05d44eda43a6702b6a869/ca_add_group.png" />
-
----
-
-### Step 12: Test exception group 
-
-Login again to VPN enabled browswer to confirm exception group works. 
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_allowed.png" />
-
----
 
 
