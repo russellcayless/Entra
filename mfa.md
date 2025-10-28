@@ -15,7 +15,7 @@ To strengthen account security by enforcing multi-factor authentication for all 
 
 ## 🧩 Step-by-Step Instructions
 
-### Step 1: Add countries locations
+### Step 1: Setup policy
 
 Go to the Entra portal and select **Entra ID > Conditional Access > Named Locations > Countries Location**. Enter name of location. Select **Include unknown countries/regions** and all countries. Search for Unitied Kingdom and de-select country. **Create** location. 
 
@@ -23,7 +23,7 @@ Go to the Entra portal and select **Entra ID > Conditional Access > Named Locati
 
 ---
 
-### Step 2: Setup conditional access policy 
+### Step 2: Exclude break glass account
 
 Select **Entra ID > Conditional Access > Policies > New Policy**. Name the policy and select **All users**
 
@@ -47,7 +47,7 @@ Configure policy to include **Select networks and locations** and select **All c
 
 ---
 
-### Step 5: Add acceess controls
+### Step 5: Add network exclusion to policy
 
 Select **Grant** control access and set to **Block access**
 
@@ -55,7 +55,7 @@ Select **Grant** control access and set to **Block access**
 
 ---
 
-### Step 6: Enable policy 
+### Step 6:  Add access control
 
 Turn on policy and **Create**
 
@@ -63,7 +63,7 @@ Turn on policy and **Create**
 
 ---
 
-### Step 6: Enable policy 
+### Step 7: Enable policy 
 
 Turn on policy and **Create**
 
@@ -71,7 +71,7 @@ Turn on policy and **Create**
 
 ---
 
-### Step 6: Enable policy 
+### Step 8: Test policy 
 
 Turn on policy and **Create**
 
