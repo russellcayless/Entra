@@ -19,7 +19,7 @@ To strengthen account security by enforcing multi-factor authentication for all 
 
 Go to the Entra portal and select **Entra ID > Conditional Access > Named Locations > Countries Location**. Enter name of location. Select **Include unknown countries/regions** and all countries. Search for Unitied Kingdom and de-select country. **Create** location. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/3e39090f4c9e6383cf55ffce43096ababdb18183/named_location.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_user.png" />
 
 ---
 
@@ -27,7 +27,7 @@ Go to the Entra portal and select **Entra ID > Conditional Access > Named Locati
 
 Select **Entra ID > Conditional Access > Policies > New Policy**. Name the policy and select **All users**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_users.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_user_ex.png" />
 
 ---
 
@@ -35,7 +35,7 @@ Select **Entra ID > Conditional Access > Policies > New Policy**. Name the polic
 
 Select policy to include **All resources**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_resources.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_resource.png" />
 
 ---
 
@@ -43,7 +43,7 @@ Select policy to include **All resources**
 
 Configure policy to include **Select networks and locations** and select **All countries except UK**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_network.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_network_in.png" />
 
 ---
 
@@ -51,7 +51,7 @@ Configure policy to include **Select networks and locations** and select **All c
 
 Select **Grant** control access and set to **Block access**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_grant.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_user_in.png" />
 
 ---
 
@@ -59,10 +59,24 @@ Select **Grant** control access and set to **Block access**
 
 Turn on policy and **Create**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/766b1ed2154f24efc09cb740fe4bcabad9de0a32/ca_enable.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_grant.png" />
 
 ---
 
+### Step 6: Enable policy 
 
+Turn on policy and **Create**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_enable.png" />
+
+---
+
+### Step 6: Enable policy 
+
+Turn on policy and **Create**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/main/mfa_test.png" />
+
+---
 
 
