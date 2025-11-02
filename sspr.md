@@ -24,7 +24,7 @@ By branding your organization’s Microsoft 365 sign-in experience, users can vi
 
 Go to the Entra portal and select **Entra ID > Conditional Access > Named Locations > Countries Location**. Enter name of location. Select **Include unknown countries/regions** and all countries. Search for Unitied Kingdom and de-select country. **Create** location. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass2.png" />
+<img width="500" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass2.png" />
 
 ---
 
