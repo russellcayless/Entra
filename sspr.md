@@ -32,11 +32,11 @@ Obtain list of common banned passwords used.
 
 Select **Entra ID**. Search for **Password Protection**. Configure following settings and **Save**
 
-Lockout Theshold - **5**
-Lockout duration in seconds - **30**
-Enforce custom List - **Yes**
-Custom banned password list - **Add passwords**
-Mode - **Enforced** 
+- Lockout Theshold - **5**
+- Lockout duration in seconds - **30**
+- Enforce custom List - **Yes**
+- Custom banned password list - **Add passwords**
+- Mode - **Enforced** 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass1.png" />
 
