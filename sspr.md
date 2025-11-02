@@ -20,17 +20,23 @@ By branding your organization’s Microsoft 365 sign-in experience, users can vi
 
 ## 🧩 Step-by-Step Instructions
 
-### Step 1: Add countries locations
+### Step 1: Custom banned password list
 
-Go to the Entra portal and select **Entra ID > Conditional Access > Named Locations > Countries Location**. Enter name of location. Select **Include unknown countries/regions** and all countries. Search for Unitied Kingdom and de-select country. **Create** location. 
+Obtain list of common banned passwords used. 
 
 <img width="500" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass2.png" />
 
 ---
 
-### Step 2: Setup conditional access policy 
+### Step 2: Set Password Protection
 
-Select **Entra ID > Conditional Access > Policies > New Policy**. Name the policy and select **All users**
+Select **Entra ID**. Search for **Password Protection**. Configure following settings and **Save**
+
+Lockout Theshold - **5**
+Lockout duration in seconds - **30**
+Enforce custom List - **Yes**
+Custom banned password list - **Add passwords**
+Mode - **Enforced** 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass1.png" />
 
