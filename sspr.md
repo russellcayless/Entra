@@ -3,18 +3,18 @@
 
 **Background:**  
 
-An accountancy firm required stronger password controls and a secure, user-friendly password reset process to reduce helpdesk workload and improve account security.
+An accountancy firm requires stronger password controls and a secure, user-friendly password reset process to reduce helpdesk workload and improve account security.
 
 ---
 
 ## ✅ Lab Objective  
 By branding your organization’s Microsoft 365 sign-in experience, users can visually confirm they are on the real company login portal:
 
-- Add countries locations to include UK as trusted site
-- Setup conditional access policy to block all countries except UK
-- Use a VPN connection to simulate a sign-in from a non-UK location.
-- Create a security group in Entra ID for approved exception users.
-- Test exception, reattempt the sign-in from a non-UK VPN location and confirm the user is allowed access as expected.
+- Set Password Protection
+- Set Reset Password 
+- Set Registration
+- Set Notifications
+- Enable authentcation methods
 
 ---
 
