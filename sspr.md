@@ -72,6 +72,6 @@ Turn on policy and **Create**
 
 Enable a VPN from non UK country to test policy is working 
 
-<img width="500" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass7.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cb19849dc06d59278135fe52b8a62d175ad94d30/pass7.png" />
 
 ---
