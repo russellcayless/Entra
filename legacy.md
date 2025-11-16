@@ -1,5 +1,5 @@
 # 🛡️ Microsoft Entra
-## 🎯 Scenario: MFA all users
+## 🎯 Scenario: Block Legacy Authentication
 
 **Background:**  
 
