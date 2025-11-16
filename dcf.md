@@ -49,7 +49,7 @@ Configure policy to **Conditions > Authentication Flows** and enable **Yes** con
 
 ### Step 5: Add access control to policy
 
-Configure policy by selecting **Grant > Block access** after Enable policy and Create
+Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF5.png" />
 
