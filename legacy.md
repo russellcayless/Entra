@@ -19,7 +19,7 @@ To strengthen account security by enforcing multi-factor authentication for all 
 
 Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**. Name the policy and select All users
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_user.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg1.png" />
 
 ---
 
@@ -27,7 +27,7 @@ Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**
 
 Ensure break glass account is excluded to prevent lockout and for emergency access. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_user_ex.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/7be68fd604fab1da5fb0756481598aab49066685/Leg5.png" />
 
 ---
 
@@ -35,7 +35,7 @@ Ensure break glass account is excluded to prevent lockout and for emergency acce
 
 Select policy to include **All resources**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_resource.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg3.png" />
 
 ---
 
@@ -43,7 +43,7 @@ Select policy to include **All resources**
 
 Configure policy to include **Any network or location**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_network_in.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg4.png" />
 
 ---
 
@@ -51,7 +51,7 @@ Configure policy to include **Any network or location**
 
 Exclude **All trusted networks and locations**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_user_in.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
 
 ---
 
@@ -59,7 +59,7 @@ Exclude **All trusted networks and locations**
 
 **Grant access** and enable **multifactor authentication**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_grant.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
 
 ---
 
@@ -67,7 +67,7 @@ Exclude **All trusted networks and locations**
 
 Turn on policy and **Create**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/5c7ee6b1caee46c1c76d91c3379791b82ca5a765/mfa_enable.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
 
 ---
 
@@ -75,7 +75,7 @@ Turn on policy and **Create**
 
 Login with user the ensure they requite multifactor authentication 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/main/mfa_test.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
 
 ---
 
