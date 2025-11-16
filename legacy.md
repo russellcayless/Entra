@@ -3,13 +3,13 @@
 
 **Background:**  
 
-An accountancy firm identified that several user accounts lacked multi-factor authentication (MFA), leaving them vulnerable to credential theft and unauthorized access attempts.
+An accountancy firm want legacy authentication blocked because older sign-in methods can’t enforce MFA, making it easier for attackers to gain access using stolen or guessed passwords.
 
 ---
 
 ## ✅ Lab Objective  
 
-To strengthen account security by enforcing multi-factor authentication for all users across the Microsoft 365 environment.
+Ensure all users—especially those handling sensitive financial data—are protected by modern security controls and MFA at every login.
 
 ---
 
@@ -31,52 +31,21 @@ Ensure break glass account is excluded to prevent lockout and for emergency acce
 
 ---
 
-### Step 3: Add resources to policy
+### Step 3: Add condition to policy
 
-Select policy to include **All resources**
+Select policy to include **Conditions > Client apps** and select **Yes** to configure and de-select **Browser, Mobile apps and Desktop clients**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg3.png" />
 
 ---
 
-### Step 4: Add network location to policy
+### Step 4: Add Access Controls to policy
 
-Configure policy to include **Any network or location**
+Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg4.png" />
 
 ---
 
-### Step 5: Add network exclusion to policy
-
-Exclude **All trusted networks and locations**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
-
----
-
-### Step 6:  Add access control
-
-**Grant access** and enable **multifactor authentication**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
-
----
-
-### Step 7: Enable policy 
-
-Turn on policy and **Create**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
-
----
-
-### Step 8: Test policy 
-
-Login with user the ensure they requite multifactor authentication 
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="" />
-
----
 
 
