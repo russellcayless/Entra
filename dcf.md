@@ -3,13 +3,13 @@
 
 **Background:**  
 
-An accountancy firm identified that several user accounts lacked multi-factor authentication (MFA), leaving them vulnerable to credential theft and unauthorized access attempts.
+An accountancy firm wants to reduce unauthorized access and token-based attacks.
 
 ---
 
 ## ✅ Lab Objective  
 
-To strengthen account security by enforcing multi-factor authentication for all users across the Microsoft 365 environment.
+To strengthen account security by enforcing blocked device code flow for all users across the Microsoft 365 environment.
 
 ---
 
@@ -31,7 +31,7 @@ Ensure break glass account is excluded to prevent lockout and for emergency acce
 
 ---
 
-### Step 3: Add resources to policy
+### Step 3: Add target resources
 
 Select policy to include **All resources**
 
@@ -39,17 +39,17 @@ Select policy to include **All resources**
 
 ---
 
-### Step 4: Add network location to policy
+### Step 4: Add condition
 
-Configure policy to include **Any network or location**
+Configure policy to **Conditions > Authentication Flows** and enable **Yes** configuration, selecting **Device Code Flow**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF4.png" />
 
 ---
 
-### Step 5: Add network exclusion to policy
+### Step 5: Add access control to policy
 
-Exclude **All trusted networks and locations**
+Configure policy by selecting **Grant > Block access** after Enable policy and Create
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF5.png" />
 
