@@ -73,7 +73,7 @@ Turn on policy and **Create**
 
 ### Step 8: Test policy 
 
-Login with user the ensure they requite multifactor authentication 
+Login with user the ensure they require multifactor authentication 
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/main/mfa_test.png" />
 
