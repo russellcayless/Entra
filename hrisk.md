@@ -31,17 +31,17 @@ Ensure break glass account is excluded to prevent lockout and for emergency acce
 
 ---
 
-### Step 3: Add condition to policy
+### Step 3: Add target resources
 
-Select policy to include **Conditions > Client apps** and select **Yes** to configure and de-select **Browser, Mobile apps and Desktop clients**
+Select policy to include **All resources**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr3.png" />
 
 ---
 
-### Step 4: Add Access Controls to policy
+### Step 4: Add Conditions to policy
 
-Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
+Configure policy by selecting **Conditions > Sign-in Risk** after configure **Yes** and select **High**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr4.png" />
 
