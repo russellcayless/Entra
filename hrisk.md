@@ -19,7 +19,7 @@ Using conditional access ensure that high-risk sign-ins and insecure authenticat
 
 Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**. Name the policy and select All users
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg1.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr1.png" />
 
 ---
 
@@ -27,7 +27,7 @@ Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**
 
 Ensure break glass account is excluded to prevent lockout and for emergency access. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/7be68fd604fab1da5fb0756481598aab49066685/Leg5.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr2.png" />
 
 ---
 
@@ -35,7 +35,7 @@ Ensure break glass account is excluded to prevent lockout and for emergency acce
 
 Select policy to include **Conditions > Client apps** and select **Yes** to configure and de-select **Browser, Mobile apps and Desktop clients**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg3.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr3.png" />
 
 ---
 
@@ -43,7 +43,15 @@ Select policy to include **Conditions > Client apps** and select **Yes** to conf
 
 Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/91a0d60b2c3be3ffa1890b52e83bfc19a1e613f6/Leg4.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr4.png" />
+
+---
+
+### Step 5: Add Access Controls to policy
+
+Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/eccff8ee33cbc3a5463049f9cee02b51e8192757/hr5.png" />
 
 ---
 
