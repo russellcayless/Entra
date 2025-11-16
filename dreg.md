@@ -1,5 +1,5 @@
 # 🛡️ Microsoft Entra
-## 🎯 Scenario: Require Device Registration
+## 🎯 Scenario: Require MFA Device Registration
 
 **Background:**  
 
