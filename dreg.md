@@ -1,0 +1,58 @@
+# 🛡️ Microsoft Entra
+## 🎯 Scenario: Block Device Code Flow
+
+**Background:**  
+
+An accountancy firm wants to reduce unauthorized access and token-based attacks.
+
+---
+
+## ✅ Lab Objective  
+
+To strengthen account security by enforcing blocked device code flow for all users across the Microsoft 365 environment.
+
+---
+
+## 🧩 Step-by-Step Instructions
+
+### Step 1: Setup policy
+
+Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**. Name the policy and select All users
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF1.png" />
+
+---
+
+### Step 2: Exclude break glass account
+
+Ensure break glass account is excluded to prevent lockout and for emergency access. 
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF2.png" />
+
+---
+
+### Step 3: Add target resources
+
+Select policy to include **All resources**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF3.png" />
+
+---
+
+### Step 4: Add condition
+
+Configure policy to **Conditions > Authentication Flows** and enable **Yes** configuration, selecting **Device Code Flow**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF4.png" />
+
+---
+
+### Step 5: Add access control to policy
+
+Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF5.png" />
+
+---
+
+
