@@ -3,13 +3,13 @@
 
 **Background:**  
 
-An accountancy firm wants to reduce unauthorized access and token-based attacks.
+An accountancy firm wants to ensure only trusted devices and authenticated users can access sensitive financial data
 
 ---
 
 ## ✅ Lab Objective  
 
-To strengthen account security by enforcing blocked device code flow for all users across the Microsoft 365 environment.
+To strengthen security by enforcing all users to register devices using MFA across the Microsoft 365 environment.
 
 ---
 
@@ -19,7 +19,7 @@ To strengthen account security by enforcing blocked device code flow for all use
 
 Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**. Name the policy and select All users
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF1.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cc36b754a78a1e48682cf3c3b74c2865fcc2ccb5/DR1.png" />
 
 ---
 
@@ -27,32 +27,25 @@ Go to the Entra portal and select **Entra ID > Conditional Access > New Policy**
 
 Ensure break glass account is excluded to prevent lockout and for emergency access. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF2.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cc36b754a78a1e48682cf3c3b74c2865fcc2ccb5/DR2.png" />
 
 ---
 
-### Step 3: Add target resources
+### Step 3: Add target resource policy
 
-Select policy to include **All resources**
+Select the policy to apply to **User Actions** and select **Register or join devices**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF3.png" />
-
----
-
-### Step 4: Add condition
-
-Configure policy to **Conditions > Authentication Flows** and enable **Yes** configuration, selecting **Device Code Flow**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF4.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cc36b754a78a1e48682cf3c3b74c2865fcc2ccb5/DR3.png" />
 
 ---
 
-### Step 5: Add access control to policy
+### Step 4: Add Access control 
 
-Configure policy by selecting **Grant > Block access** after **Enable policy** and **Create**
+Configure policy by selecting **Grant > Grant access** after select **Require authentication strength** and **Multicator Authentication**. After **Enable policy** and select **Create**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/b4be76c1084832a6ca791385ecdcf966d3980259/DF5.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/cc36b754a78a1e48682cf3c3b74c2865fcc2ccb5/DR4.png" />
 
 ---
+
 
 
