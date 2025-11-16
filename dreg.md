@@ -1,5 +1,5 @@
 # 🛡️ Microsoft Entra
-## 🎯 Scenario: Block Device Code Flow
+## 🎯 Scenario: Require Device Registration
 
 **Background:**  
 
