@@ -51,6 +51,6 @@ Select **Grant > Block Access**
 
 ### Step 6: Enable Policy
 
-Turn on Policy  
+Turn on Policy and **Create**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup7.png" />
