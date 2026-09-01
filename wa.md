@@ -7,7 +7,7 @@ An accountancy firm ...
 
 ---
 
-## 🧩 Step-by-Step Instructionsgm
+## 🧩 Step-by-Step Instructions
 
 ### Step 1: Create Policy
 
