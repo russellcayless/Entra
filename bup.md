@@ -24,6 +24,13 @@ By branding your organization’s Microsoft 365 sign-in experience, users can vi
 
 Go to the Entra portal and select **Entra ID > Conditional Access > Named Locations > Countries Location**. Enter name of location. Select **Include unknown countries/regions** and all countries. Search for Unitied Kingdom and de-select country. **Create** location. 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/3e39090f4c9e6383cf55ffce43096ababdb18183/named_location.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup1.png" />
 
 ---
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup2.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup3.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup4.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup5.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup6.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup7.png" />
