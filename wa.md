@@ -62,5 +62,5 @@ Select **Session > Require token protection for sign-in sessions**
 
 Turn on Policy and **Create**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/85978bbf45d85d008163b2eb1f8afa6b8a2072cd/ca-w5.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/85978bbf45d85d008163b2eb1f8afa6b8a2072cd/ca-w7.png" />
 
