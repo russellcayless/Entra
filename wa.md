@@ -3,7 +3,7 @@
 
 **Background:**  
 
-An accountancy firm wants to enable Token Protection for Microsoft 365 to reduce the risk of attackers using stolen authentication tokens to access corporate data. If an employee's session token is stolen by malware or an infostealer, Token Protection helps prevent that token from being reused on another device to access services such as Exchange Online, SharePoint and Teams. This provides an additional layer of security beyond passwords and MFA, helping protect sensitive company emails, files and communications.
+An accountancy firm wants to enable Token Protection for Microsoft 365 to reduce the risk of attackers using stolen authentication tokens to access corporate data. If an employee's session token is stolen by malware or an infostealer, Token Protection helps prevent that token from being reused on another device to access services such as Exchange Online, SharePoint and Teams. This provides an additional layer of security beyond passwords and MFA, helping protect sensitive company emails, files and communications. 
 
 ---
 
