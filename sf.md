@@ -3,7 +3,7 @@
 
 **Background:**  
 
-An accountancy firm wishes to ensure users are only accessing their data on devices that meet the organisations compliant security baseline.
+An accountancy firm wishes to ensure users and admins sessions are not permanently authenticated. They must regularly re-authenticate and not maintain a persistent browser session. 
 
 ---
 
@@ -61,7 +61,7 @@ Turn on Policy and **Create**
 
 ### Step 1: Create Policy
 
-Go to the Entra portal and select **Entra ID > Conditional Access > Create New Policy**, Name policy & Select **Directory Roles > **
+Go to the Entra portal and select **Entra ID > Conditional Access > Create New Policy**, Name policy & Select **Directory Roles > Admins (Cloud Application, Conditional Access, Exchange, Global, Helpdesk, Security, Sharepoint, User)**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/118401fc8f2bc17a7f6e4051242a0196d9eb137f/SC7.png" />
 
