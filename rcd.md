@@ -1,5 +1,5 @@
 # 🛡️ Microsoft Entra
-## 🎯 Scenario: Block Unsupported Platforms
+## 🎯 Scenario: Require Compliant Devices
 
 **Background:**  
 
@@ -13,7 +13,7 @@ An accountancy firm wishes to reduce exposure to platforms which it does not use
 
 Go to the Entra portal and select **Entra ID > Conditional Access > Create New Policy**, Name policy and assign to all users
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup1.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="(https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd1.png)" />
 
 ---
 
@@ -21,7 +21,7 @@ Go to the Entra portal and select **Entra ID > Conditional Access > Create New P
 
 Exclude the Break Glass group
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup2.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd2.png" />
 
 ---
 
@@ -29,23 +29,23 @@ Exclude the Break Glass group
 
 Select **Target Resources > All Resources** 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup3.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd3.png" />
 
 ---
 
-### Step 4: Conditions
-
-Select **Conditions > Device Platforms > Yes (to configure) > Exclude platforms currently using in organisation**
-
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup4.png" />
-
----
-
-### Step 5: Grant
+### Step 4: Grant
 
 Select **Grant > Block Access** 
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup6.png" />
+<img width="1767" alt="[Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd4.png" />
+
+---
+
+### Step 5: Conditions
+
+Select **Conditions > Device Platforms > Yes (to configure) > Exclude platforms currently using in organisation**
+
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd5.png" />
 
 ---
 
@@ -53,4 +53,4 @@ Select **Grant > Block Access**
 
 Turn on Policy and **Create**
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/dcf2a1a7454963b3b4ff8d6c5cde3ff99cc77ec5/ca-bup7.png" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd6.png" />
