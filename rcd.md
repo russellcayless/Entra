@@ -13,7 +13,7 @@ An accountancy firm wishes to ensure users are only accessing their data on devi
 
 Go to the Entra portal and select **Entra ID > Conditional Access > Create New Policy**, Name policy and assign to all users
 
-<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="(https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd1.png)" />
+<img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd1.png" />
 
 ---
 
