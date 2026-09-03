@@ -3,7 +3,7 @@
 
 **Background:**  
 
-An accountancy firm wishes to reduce exposure to platforms which it does not use within the organisation.
+An accountancy firm wishes to ensure users are only accessing their data on devices that meet the organisations compliant security baseline.
 
 ---
 
@@ -35,7 +35,7 @@ Select **Target Resources > All Resources**
 
 ### Step 4: Grant
 
-Select **Grant > Block Access** 
+Select **Grant > Require device to be marked as compliant** 
 
 <img width="1767" alt="[Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd4.png" />
 
@@ -43,7 +43,7 @@ Select **Grant > Block Access**
 
 ### Step 5: Conditions
 
-Select **Conditions > Device Platforms > Yes (to configure) > Exclude platforms currently using in organisation**
+Select **Conditions > Device Platforms > Yes (to configure) > Include platforms currently using in organisation**
 
 <img width="1767" alt="Screen Shot 2025-05-07 at 11 26 51 PM" src="https://github.com/russellcayless/Entra/blob/509c4e229b7d2a44505e8c47687f13ffe9e0cb7d/rcd5.png" />
 
